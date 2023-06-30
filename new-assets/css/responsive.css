@@ -50,15 +50,7 @@
     #core-feature-area {
         margin-bottom: 0;
     }
-    #about-area {
-        background-size: cover;
-    }
-    .about-info-single {
-        padding: 30px 15px 15px;
-    }
-    #about-area {
-        padding: 100px 0 130px;
-    }
+
 
     .awesome-feat-img img {
         max-width: 350px;
@@ -71,9 +63,6 @@
         padding: 0 0 40px;
     }
 
-    #how-work-area {
-        padding: 80px 0 510px;
-    }
 
     .screen-carousel.owl-carousel .owl-nav>div {
         right: 30px;
@@ -82,24 +71,17 @@
         right: 90px;
     }
     #pricing-area {
-        padding: 115px 0 250px;
+        padding: 90px 0 50px;
     }
 
-    #faq-area {
-        margin: 120px 0 50px;
-        background-size: 50% 100%;
-    }
     #contact-area {
         background-size: 70%;
         padding: 70px 0;
         margin-bottom: 0;
     }
-    #pricing-wrap .yearly,
-    #pricing-wrap .monthly {
-        right: -20px;
-    }
+
     #video-area {
-        padding: 120px 0 100px;
+        padding: 90px 0 100px;
     }
 
     .faq-img img {
@@ -129,10 +111,7 @@
     .comment-single.reply .comnt-text {
         width: 82%
     }
-    .about-info-single .content p {
-        font-size: 15px;
-        line-height: 25px;
-    }
+
     .post-cont {
         margin: 0 10px;
     }
@@ -207,29 +186,6 @@
     }
 
 
-    .about-info-single .icon {
-        width: 100%;
-        float: none;
-        margin: 0 0 18px
-    }
-    .about-info-single .content {
-        width: 100%;
-        float: none;
-        padding-left: 0;
-    }
-    .about-info-single {
-        padding: 30px 20px 15px;
-        text-align: center;
-    }
-    .about-cont {
-        margin-top: 0;
-    }
-    #about-area {
-        padding: 70px 0 130px;
-        background-size: cover;
-        background-position: left;
-    }
-
     #video-area {
         padding: 110px 0 100px;
     }
@@ -246,32 +202,9 @@
     #awesome-feat-area {
         padding: 0 0 100px;
     }
-    #how-work-area {
-        padding: 50px 0 540px;
-    }
-    #pricing-wrap .yearly,
-    #pricing-wrap .monthly {
-        right: -30px;
-    }
     #pricing-area {
-        padding: 115px 0 250px;
+        padding: 90px 0 50px;
     }
-    .price-tbl-single .price-bg {
-        top: -22px;
-    }
-    .price-tbl-single .price {
-        margin: 45px 0 0;
-    }
-    #team-area {
-        background-size: auto;
-        padding: 80px 0 60px
-    }
-    .team-single {
-        margin-bottom: 40px;
-    }
-
-
-
 
     .faq-img img {
         max-width: 280px;
@@ -288,10 +221,7 @@
         margin-left: 0;
         margin-top: 80px;
     }
-    #faq-area {
-        margin: 120px 0 50px;
-        background-size: 50%
-    }
+
     #contact-area {
         padding: 70px 0 50px;
         margin-bottom: 0;
@@ -323,10 +253,7 @@
     #home-area.bg-2 {
         background-position: center;
     }
-    .about-cont h2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
+
     .page-breadcrumb {
         padding: 190px 0 110px;
     }
@@ -437,19 +364,6 @@
     .caption h1 {
         margin-bottom: 15px;
     }
-
-
-    .about-info-single .icon {
-        text-align: center;
-    }
-    .about-cont {
-        margin-top: 0;
-    }
-    #about-area {
-        padding: 50px 0 100px;
-        background-size: cover;
-        background-position: left;
-    }
     #home-area.bg-1 {
         margin-bottom: 30px;
         background-position: center
@@ -457,9 +371,7 @@
     #core-feature-area {
         margin-bottom: 0;
     }
-    .about-info-single .content p {
-        font-size: 14px;
-    }
+
 
     .video.title {
         padding-bottom: 500px;
@@ -483,26 +395,10 @@
     #awesome-feat-area {
         padding: 0 0 120px;
     }
-    #how-work-area {
-        padding: 50px 0 220px;
-        background-size: contain
-    }
-    #pricing-wrap .yearly,
-    #pricing-wrap .monthly {
-        right: -30px;
-    }
     #pricing-area {
-        padding: 100px 0 275px;
-    }
-    #team-area {
-        background-size: auto;
-        padding: 105px 0 60px
-    }
-    .team-single {
-        margin-bottom: 40px;
-    }
+        padding: 80px 0 40px;
 
-
+    }
 
     .faq-img img {
         max-width: 280px;
@@ -518,10 +414,6 @@
         max-width: 280px;
         margin-left: 0;
         margin-top: 80px;
-    }
-    #faq-area {
-        margin: 100px 0 50px;
-        background-size: contain
     }
     #contact-area {
         padding: 60px 0 30px;
@@ -555,39 +447,14 @@
         background-position: left;
         background-size: cover
     }
-    .about-cont h2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .about-info-single {
-        margin-bottom: 20px;
-    }
+
     #core-feature-area {
         padding: 0 0 50px;
     }
     .counter-single {
         margin-bottom: 70px;
     }
-    .how-work-bg {
-        background-image: none;
-    }
-    .how-work-single {
-        margin-bottom: 60px;
-        padding: 0 50px
-    }
-    .how-work-single i {
-        display: inline-block;
-        width: 100px;
-        height: 100px;
-        line-height: 108px;
-    }
-    .how-work-single .icon {
-        width: 120px;
-        height: 120px;
-    }
-    .how-work-single .number {
-        left: 90px;
-    }
+
     #newsletter-area {
         padding: 95px 0 100px;
     }
@@ -614,10 +481,7 @@
     .toggle-container .switch-toggles.active::after {
         left: 135px;
     }
-    #pricing-wrap {
-        margin-bottom: 490px;
-        margin-top: 20px
-    }
+
 
 
     .faq-img {
@@ -703,27 +567,14 @@
         font-size: 14px;
     }
 
-    .about-cont h5 {
-        font-size: 14px;
-    }
-    .about-info-single {
-        padding: 20px 15px 5px;
-    }
-    .about-info-single .content {
-        width: 58%;
-    }
-    .about-info-single .icon {
-        width: 42%;
-    }
+
     .title h5 {
         font-size: 14px;
     }
     .counter.title {
         padding-bottom: 60px;
     }
-    .price-tbl-single a {
-        padding: 12px 30px;
-    }
+
     .download-btns {
         text-align: center;
     }
@@ -735,12 +586,7 @@
     .contact-form button {
         padding: 12px 22px;
     }
-    .price-tbl-single .price {
-        margin: 45px 0 0;
-    }
-    .price-tbl-single .price-bg {
-        top: -22px;
-    }
+
     #contact-area.bg-1,
     #contact-area.bg-2 {
         background-image: none;
@@ -814,17 +660,7 @@
         margin-top: 30px;
     }
 
-    .about-info-single .icon {
-        text-align: center;
-    }
-    .about-cont {
-        margin-top: 0;
-    }
-    #about-area {
-        padding: 60px 0 95px;
-        background-size: cover;
-        background-position: left;
-    }
+
 
     .video.title {
         padding-bottom: 350px;
@@ -850,29 +686,10 @@
     #awesome-feat-area {
         padding: 0 0 90px;
     }
-    #how-work-area {
-        padding: 50px 0 160px;
-        background-size: contain
-    }
-    #pricing-wrap .yearly,
-    #pricing-wrap .monthly {
-        right: -30px;
-    }
     #pricing-area {
-        padding: 80px 0 290px;
+        padding: 70px 0 0;
+
     }
-    #team-area {
-        background-size: auto;
-        padding: 90px 0 60px
-    }
-    .team-single {
-        margin-bottom: 40px;
-    }
-
-
-
-
-
     .faq-img img {
         max-width: 280px;
         margin-left: 0;
@@ -887,10 +704,6 @@
         max-width: 250px;
         margin-left: 0;
         margin-top: 80px;
-    }
-    #faq-area {
-        margin: 80px 0 30px;
-        background-size: contain
     }
     #contact-area {
         padding: 70px 0 30px;
@@ -924,39 +737,14 @@
         background-position: left;
         background-size: cover
     }
-    .about-cont h2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .about-info-single {
-        margin-bottom: 20px;
-    }
+
     #core-feature-area {
         padding: 0 0 50px;
     }
     .counter-single {
         margin-bottom: 70px;
     }
-    .how-work-bg {
-        background-image: none;
-    }
-    .how-work-single {
-        margin-bottom: 60px;
-        padding: 0 30px
-    }
-    .how-work-single i {
-        display: inline-block;
-        width: 100px;
-        height: 100px;
-        line-height: 108px;
-    }
-    .how-work-single .icon {
-        width: 120px;
-        height: 120px;
-    }
-    .how-work-single .number {
-        left: 90px;
-    }
+
     #newsletter-area {
         padding: 95px 0 100px;
     }
@@ -982,10 +770,6 @@
     }
     .toggle-container .switch-toggles.active::after {
         left: 135px;
-    }
-    #pricing-wrap {
-        margin-bottom: 460px;
-        margin-top: 20px
     }
 
 
@@ -1041,9 +825,6 @@
     }
     .newsletter-input-bx.two input {
         border: 1px solid #e6f0fa;
-    }
-    #faq-area .section-heading p {
-        padding: 0
     }
     .breadcrumb-cont h2 {
         font-size: 36px;
@@ -1123,20 +904,6 @@
     }
 
 
-    .about-cont h5 {
-        font-size: 14px;
-    }
-    .about-info-single {
-        padding: 20px 15px 5px;
-        text-align: center
-    }
-    .about-info-single .content,
-    .about-info-single .icon {
-        width: 100%;
-    }
-    .about-info-single .icon {
-        margin: 0 0 12px
-    }
     .title h5 {
         font-size: 14px;
     }
@@ -1144,9 +911,7 @@
         padding-bottom: 60px;
         margin-top: 40px
     }
-    .price-tbl-single a {
-        padding: 12px 30px;
-    }
+
     .download-btns {
         text-align: center;
     }
@@ -1168,12 +933,7 @@
         margin-bottom: 0;
         background-position: center
     }
-    .price-tbl-single .price {
-        margin: 45px 0 0;
-    }
-    .price-tbl-single .price-bg {
-        top: -22px;
-    }
+
     .caption h1 {
         margin-bottom: 15px;
     }
@@ -1248,17 +1008,6 @@
         margin-top: 30px;
     }
 
-    .about-info-single .icon {
-        text-align: center;
-    }
-    .about-cont {
-        margin-top: 0;
-    }
-    #about-area {
-        padding: 60px 0 70px;
-        background-size: cover;
-        background-position: left;
-    }
 
     .video.title {
         padding-bottom: 350px;
@@ -1282,28 +1031,10 @@
     #awesome-feat-area {
         padding: 0 0 90px;
     }
-    #how-work-area {
-        padding: 50px 0 140px;
-        background-size: contain
-    }
-    #pricing-wrap .yearly,
-    #pricing-wrap .monthly {
-        right: -30px;
-    }
     #pricing-area {
-        padding: 80px 0 240px;
+        padding: 70px 0 30px;
+
     }
-    #team-area {
-        background-size: auto;
-        padding: 90px 0 60px
-    }
-    .team-single {
-        margin-bottom: 40px;
-    }
-
-
-
-
     .faq-img img {
         max-width: 280px;
         margin-left: 0;
@@ -1318,10 +1049,6 @@
         max-width: 280px;
         margin-left: 0;
         margin-top: 80px;
-    }
-    #faq-area {
-        margin: 80px 0 30px;
-        background-size: contain
     }
     #contact-area {
         padding: 70px 0 30px;
@@ -1355,38 +1082,12 @@
         background-position: left;
         background-size: cover
     }
-    .about-cont h2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .about-info-single {
-        margin-bottom: 20px;
-    }
+
     #core-feature-area {
         padding: 0 0 50px;
     }
     .counter-single {
         margin-bottom: 70px;
-    }
-    .how-work-bg {
-        background-image: none;
-    }
-    .how-work-single {
-        margin-bottom: 60px;
-        padding: 0
-    }
-    .how-work-single i {
-        display: inline-block;
-        width: 100px;
-        height: 100px;
-        line-height: 108px;
-    }
-    .how-work-single .icon {
-        width: 120px;
-        height: 120px;
-    }
-    .how-work-single .number {
-        left: 90px;
     }
     #newsletter-area {
         padding: 95px 0 100px;
@@ -1413,10 +1114,6 @@
     }
     .toggle-container .switch-toggles.active::after {
         left: 135px;
-    }
-    #pricing-wrap {
-        margin-bottom: 460px;
-        margin-top: 20px
     }
 
 
@@ -1475,9 +1172,6 @@
     }
     .newsletter-input-bx.two input {
         border: 1px solid #e6f0fa;
-    }
-    #faq-area .section-heading p {
-        padding: 0
     }
     .breadcrumb-cont h2 {
         font-size: 36px;
@@ -1560,29 +1254,13 @@
         font-size: 14px;
     }
 
-    .about-cont h5 {
-        font-size: 14px;
-    }
-    .about-info-single {
-        padding: 20px 10px 5px;
-        text-align: center
-    }
-    .about-info-single .content,
-    .about-info-single .icon {
-        width: 100%;
-    }
-    .about-info-single .icon {
-        margin: 0 0 12px
-    }
     .title h5 {
         font-size: 14px;
     }
     .counter.title {
         padding-bottom: 60px;
     }
-    .price-tbl-single a {
-        padding: 12px 30px;
-    }
+
     .download-btns {
         text-align: center;
     }
@@ -1610,18 +1288,11 @@
     #core-feature-area {
         margin-bottom: 0;
     }
-    .price-tbl-single .price {
-        margin: 45px 0 0;
-    }
-    .price-tbl-single .price-bg {
-        top: -22px;
-    }
+
     .caption h1 {
         margin-bottom: 15px;
     }
-    .about-info-single .content p {
-        font-size: 15px;
-    }
+
     #video-area.bg-2 {
         padding-top: 65px;
     }

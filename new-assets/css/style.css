@@ -643,15 +643,6 @@ p {
     width: 5%;
 }
 
-
-
-
-
-
-
-
-
-
 .load-more-btn a {
     background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
     background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
@@ -671,164 +662,12 @@ p {
     background-size: 200% auto
 }
 
-
-
-/*-------------------------------------------------------------------------------------
-    about area
----------------------------------------------------------------------------------------*/
-
-#about-area {
-    position: relative;
-    padding: 140px 0 126px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%
-}
-
-#about-area.bg-1 {
-    background-image: url(../images/about-bg-1.png)
-}
-
-#about-area.bg-1 .about-area-circle img {
-    position: absolute;
-    opacity: 0.5;
-    -webkit-animation: zoominoutsinglefeatured 4s infinite;
-    animation: zoominoutsinglefeatured 4s infinite;
-}
-
-#about-area.bg-1 .about-area-circle .circle1 {
-    right: 35%;
-    top: 35%;
-    width: 14%;
-}
-
-#about-area.bg-1 .about-area-circle .circle2 {
-    right: 3%;
-    top: 40%;
-    width: 10%;
-}
-
-#about-area.bg-2 {
-    background-image: url(../images/about-bg-2.png)
-}
-
-#about-area.bg-2 .about-area-circle img {
-    position: absolute;
-    opacity: 0.5;
-    -webkit-animation: zoominoutsinglefeatured 4s infinite;
-    animation: zoominoutsinglefeatured 4s infinite;
-}
-
-#about-area.bg-2 .about-area-circle .circle1 {
-    right: 35%;
-    top: 35%;
-    width: 14%;
-}
-
-#about-area.bg-2 .about-area-circle .circle2 {
-    right: 3%;
-    top: 40%;
-    width: 10%;
-}
-
-#about-area.bg-3 {
-    background-image: url(../images/about-bg-3.png)
-}
-
-#about-area.bg-3 .about-area-circle img {
-    position: absolute;
-    opacity: 0.5;
-    -webkit-animation: zoominoutsinglefeatured 4s infinite;
-    animation: zoominoutsinglefeatured 4s infinite;
-}
-
-#about-area.bg-3 .about-area-circle .circle1 {
-    right: 35%;
-    top: 35%;
-    width: 14%;
-}
-
-#about-area.bg-3 .about-area-circle .circle2 {
-    right: 3%;
-    top: 40%;
-    width: 10%;
-}
-
-
-
-
-.about-cont h5 {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #0084ff;
-}
-
-.about-cont h3 {
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 24px
-}
-
-.about-info {
-    margin-top: 42px
-}
-
-.about-info-single {
-    overflow: hidden;
-    border: 1px solid #09275d;
-    padding: 30px 30px 15px;
-    border-radius: 5px;
-}
-
-.about-info-single.dark {
-    border-color: #ddd;
-}
-
-.about-info-single .icon {
-    width: 40%;
-    float: left;
-}
-
-.about-info-single .content {
-    width: 60%;
-    float: left;
-    padding-left: 5px
-}
-
-.about-info-single .icon i {
-    display: inline-block;
-    width: 65px;
-    height: 65px;
-    line-height: 65px;
-    border-radius: 50%;
-    background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 0deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
-    -webkit-box-shadow: 0px 8px 15px -5px #7d0e98;
-    box-shadow: 0px 8px 15px -5px #7d0e98
-}
-
-.about-info-single.two .icon i {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(255, 170, 87)), to(rgb(254, 92, 118)));
-    background-image: linear-gradient( 90deg, rgb(255, 170, 87) 0%, rgb(254, 92, 118) 100%);
-    -webkit-box-shadow: 0px 8px 15px -5px rgb(255, 170, 87);
-    box-shadow: 0px 8px 15px -5px rgb(255, 170, 87)
-}
-
-.about-info-single h3 {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 38px;
-    margin-bottom: 5px;
-}
-
 /*-------------------------------------------------------------------------------------
     video area
 ---------------------------------------------------------------------------------------*/
 
 #video-area {
-    padding: 114px 0 100px;
+    padding: 90px 0 100px;
     background-repeat: no-repeat;
     background-position: bottom;
     position: relative;
@@ -899,17 +738,31 @@ p {
     font-size: 16px;
 }
 
-.counter.title {
-    padding-bottom: 95px
-}
+
 
 .title h5 {
     font-weight: 700;
     text-transform: uppercase;
     color: #0084ff;
 }
-.counter__title h2  {
-    width: 100%;
+
+.video-area__row{
+display: flex;
+    justify-content: center
+}
+.counter__title  {
+
+    text-align: center;
+    font-weight: bold;
+    margin: 0 5px 40px 5px;
+}
+.counter__title h5  {
+    font-weight: bold;
+    margin: 0 5px 40px 5px;
+}
+.counter__title p {
+    color: white;
+    font-weight: normal;
 }
 .title h2 {
     font-weight: 700;
@@ -919,8 +772,19 @@ p {
 .counter.title p {
     color: #e8f2fe
 }
-
-
+.counter__elements{
+    margin-top: 50px;
+}
+.counter__counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter__counter h3{
+    color: white;
+    font-size: 30px;
+    font-weight: revert;
+}
 
 
 
@@ -1135,122 +999,6 @@ p {
 }
 
 /*-------------------------------------------------------------------------------------
-    how work area
----------------------------------------------------------------------------------------*/
-
-#how-work-area {
-    padding: 112px 0 410px;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-image: url(../images/how-work-bg-1.png)
-}
-
-#how-work-area.bg-1 {
-    background-image: url(../images/how-work-bg-1.png)
-}
-
-#how-work-area.bg-2 {
-    background-image: url(../images/how-work-bg-2.png)
-}
-
-#how-work-area.bg-3 {
-    background-image: url(../images/how-work-bg-3.png)
-}
-
-.how-work-wrap {
-    position: relative
-}
-
-.how-work-bg {
-    position: absolute;
-    left: -50px;
-    top: -80px;
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/border-line-1.png);
-    background-repeat: no-repeat;
-}
-
-.how-work-single {
-    text-align: center;
-}
-
-.how-work-single .icon {
-    position: relative;
-    width: 140px;
-    height: 140px;
-    margin: 0 auto 22px;
-}
-
-.how-work-single .icon:before {
-    content: '';
-    position: absolute;
-    border: 1px solid #3d2e87;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    left: 0;
-    top: -10px;
-    right: 0;
-}
-
-.how-work-single i {
-    display: inline-block;
-    width: 120px;
-    height: 120px;
-    line-height: 120px;
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
-    border-radius: 50%;
-    text-align: center;
-    color: #fff;
-    font-size: 50px;
-}
-
-.how-work-single.two i {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(255, 170, 87)), to(rgb(254, 92, 118)));
-    background-image: linear-gradient( 90deg, rgb(255, 170, 87) 0%, rgb(254, 92, 118) 100%);
-}
-
-.how-work-single.three i {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(63, 47, 188)), to(rgb(2, 217, 223)));
-    background-image: linear-gradient( 90deg, rgb(63, 47, 188) 0%, rgb(2, 217, 223) 100%);
-}
-
-.how-work-single .number {
-    width: 48px;
-    height: 48px;
-    background-image: -webkit-gradient( linear, left top, left bottom, from(rgb(61, 46, 135)), to(rgb(140, 45, 223)));
-    background-image: linear-gradient( 180deg, rgb(61, 46, 135) 0%, rgb(140, 45, 223) 100%);
-    border-radius: 50%;
-    line-height: 40px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #fff;
-    border: 5px solid #fff;
-    position: absolute;
-    top: 0;
-    left: 105px;
-}
-
-.how-work-single.dark .number {
-    border-color: #2d355a
-}
-
-.how-work-single h3 {
-    font-weight: 700;
-    margin-bottom: 18px;
-}
-
-.how-work-single p a {
-    color: #60b2ff
-}
-
-.how-work-single p a:hover {
-    color: #3693ea
-}
-
-/*-------------------------------------------------------------------------------------
     newsletter area
 ---------------------------------------------------------------------------------------*/
 
@@ -1329,17 +1077,40 @@ p {
 ---------------------------------------------------------------------------------------*/
 
 #pricing-area {
-    padding: 115px 0 375px;
-    background-image: url(../images/pricing-bg-left.png), url(../images/pricing-bg-right.png);
-    background-position: left top, right top;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 18% 100%, 45% 100%
+    padding: 120px 0 0;
+    background-image: url(../images/backgrounds/d2-analytics-destination-research-software.jpg);
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
 }
 
-#pricing-area.bg-1 {
-    background-image: url(../images/pricing-bg-left-1.png), url(../images/pricing-bg-right-1.png);
+.pricing-area__content{
+    gap: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.65);
+    display: flex;
+    padding: 20px;
+    margin-bottom: 120px;
 }
 
+.pricing-area__text{
+    border-left: 6px solid white;
+    padding-left: 20px;
+
+}
+.pricing-area__text h4{
+    font-weight: 600;
+}
+.pricing-area__text p{
+    margin-top: 40px;
+    color: rgba(255,255,255,0.7);
+}
+.pricing-area__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .toggle-container {
     margin-top: -10px;
 }
@@ -1413,390 +1184,6 @@ p {
     top: 0;
 }
 
-#pricing-wrap {
-    position: relative;
-}
-
-.price-tbl-single {
-    position: relative;
-    left: 0;
-}
-
-.price-tbl-single .table-inner {
-    background-color: #fff;
-    padding: 24px 30px;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.price-tbl-single.v-dark .table-inner {
-    background-color: #040940
-}
-
-.price-tbl-single.highlighted {
-    z-index: 2;
-    border-radius: 10px;
-    border: 3px solid #1a73ff
-}
-
-.price-tbl-single.v-dark.highlighted {
-    border-color: #3030B6
-}
-
-#pricing-wrap .monthly {
-    z-index: 2;
-    right: -50px;
-}
-
-#pricing-wrap .yearly.active,
-#pricing-wrap .monthly.active {
-    z-index: 22;
-    left: 0;
-    right: 0;
-    -webkit-transform: scale(0.95);
-    transform: scale(0.95);
-}
-
-#pricing-wrap .yearly,
-#pricing-wrap .monthly {
-    right: 0px;
-}
-
-#pricing-wrap .monthly,
-#pricing-wrap .yearly {
-    position: absolute;
-    max-width: 350px;
-    opacity: 1;
-    -webkit-transform: scale(0.85);
-    transform: scale(0.85);
-    -webkit-transition: all 0.7s cubic-bezier(0.545, 0, 0.05, 1);
-    transition: all 0.7s cubic-bezier(0.545, 0, 0.05, 1);
-    -webkit-transition: opacity 0.97s, -webkit-transform 0.97s;
-    transition: opacity 0.97s, -webkit-transform 0.97s;
-    transition: opacity 0.97s, transform 0.97s;
-    transition: opacity 0.97s, transform 0.97s, -webkit-transform 0.97s;
-    -webkit-transition-timing-function: cubic-bezier(0.545, 0, 0.05, 1);
-    transition-timing-function: cubic-bezier(0.545, 0, 0.05, 1);
-}
-
-#pricing-wrap .monthly.active,
-#pricing-wrap .yearly.active {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-}
-
-#pricing-wrap .monthly.active .price-tbl-single,
-#pricing-wrap .yearly.active .price-tbl-single {
-    display: block;
-}
-
-.price-tbl-single ul li {
-    padding: 10px 0;
-    color: #505b6d;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.price-tbl-single.v-dark ul li {
-    color: #e2ecfc;
-}
-
-.price-tbl-single a {
-    display: inline-block;
-    padding: 15px 36px;
-    border-radius: 30px;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
-    box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
-    background: linear-gradient( 45deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
-    background-size: 100% auto
-}
-
-.price-tbl-single a:hover {
-    background-size: 200% auto
-}
-
-.price-tbl-single.two a {
-    background: linear-gradient( 45deg, rgb(157, 91, 254) 0%, rgb(56, 144, 254) 100%);
-}
-
-.price-tbl-single ul {
-    border-bottom: 1px solid #eaece6;
-    margin: 0 0 35px;
-    padding: 0 0 25px;
-}
-
-.table-inner h4 {
-    color: #cc3214;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 30px;
-}
-
-.price-tbl-single.v-dark h4 {
-    color: #0084ff
-}
-
-.price-tbl-single.two h4 {
-    color: #0084ff;
-}
-
-.price-tbl-single .price {
-    position: relative;
-    padding: 10px 0 35px;
-    z-index: 9
-}
-
-.price-tbl-single .price-bg {
-    background: -webkit-gradient( linear, left bottom, left top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background: linear-gradient( 0deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
-    width: 102px;
-    height: 102px;
-    border-radius: 50%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    opacity: 0.1;
-    top: -10px;
-    z-index: -1
-}
-
-.price-tbl-single.v-dark .price-bg {
-    opacity: 0.5;
-}
-
-.price-tbl-single.two .price-bg {
-    background: -webkit-gradient( linear, left bottom, left top, from(rgb(157, 91, 254)), to(rgb(56, 144, 254)));
-    background: linear-gradient( 0deg, rgb(157, 91, 254) 0%, rgb(56, 144, 254) 100%);
-    -webkit-box-shadow: 0px 13px 20px 0px rgba(57, 143, 254, 0.3);
-    box-shadow: 0px 13px 20px 0px rgba(57, 143, 254, 0.3);
-}
-
-.price-tbl-single .price h2 {
-    font-weight: 600;
-}
-
-.price-tbl-single .price h2 sup,
-.price-tbl-single .price h2 span {
-    font-size: 24px;
-}
-
-
-/*-------------------------------------------------------------------------------------
-    team area
----------------------------------------------------------------------------------------*/
-
-#team-area {
-    padding: 115px 0 100px;
-    background-image: url(../images/team-bg-left.png), url(../images/team-bg-right.png);
-    background-position: left bottom, right top;
-    background-repeat: no-repeat, no-repeat;
-    background-size: contain
-}
-
-#team-area.bg-1 {
-    background-image: url(../images/team-bg-left-1.png), url(../images/team-bg-right-1.png);
-}
-
-.team-img {
-    position: relative;
-    width: 210px;
-    height: 210px;
-    border: 4px solid #276aff;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto
-}
-
-.team-img:hover .team-social {
-    top: 130px;
-    -webkit-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-}
-
-.team-social {
-    position: absolute;
-    top: 201px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 25px;
-    -webkit-clip-path: ellipse(50% 95% at 50% 97%);
-    clip-path: ellipse(50% 95% at 50% 97%);
-    background-image: -webkit-gradient( linear, left top, right top, from(#20007e), to(#e61eb6));
-    background-image: linear-gradient( 90deg, #20007e 0%, #e61eb6 100%);
-}
-
-.team-social.two {
-    background-image: linear-gradient( 30deg, rgb(157, 91, 254) 0%, rgb(56, 144, 254) 100%);
-}
-
-.team-social li {
-    display: inline-block;
-}
-
-.team-social li a {
-    display: block;
-    border: 1px solid #fff;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 50%;
-    color: #fff;
-    margin: 0 2px
-}
-
-.team-social li a:hover {
-    background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(255, 170, 87)), to(rgb(254, 92, 118)));
-    background-image: linear-gradient( 0deg, rgb(255, 170, 87) 0%, rgb(254, 92, 118) 100%);
-    -webkit-box-shadow: 0px 8px 10px 0px rgba(254, 92, 118, 0.6);
-    box-shadow: 0px 8px 10px 0px rgba(154, 92, 118, 0.6);
-    border-color: rgb(254, 92, 118)
-}
-
-.team-info h3 {
-    font-weight: 600;
-    margin-top: 20px;
-}
-
-.team-info p {
-    color: #0084ff;
-    text-transform: uppercase
-}
-
-/*-------------------------------------------------------------------------------------
-    faq area
----------------------------------------------------------------------------------------*/
-
-#faq-area {
-    padding: 118px 0 100px;
-    background: #fff;
-}
-
-#faq-area.bg-1 .faq-area-img {
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 25% 95%;
-    left: -330px;
-    -webkit-animation: ani-rotate 50s linear infinite;
-    animation: ani-rotate 50s linear infinite;
-}
-
-#faq-area.bg {
-    background: #040940;
-}
-
-#faq-area.bg-2 .faq-area-img {
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 25% 95%;
-    left: -330px;
-    -webkit-animation: ani-rotate 50s linear infinite;
-    animation: ani-rotate 50s linear infinite;
-}
-
-#faq-area .section-heading p {
-    padding: 0 20px;
-}
-
-.card {
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 0
-}
-
-.card .card-header {
-    background-color: #fff;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(52, 69, 199, 0.4);
-    box-shadow: 0px 0px 15px 0px rgba(52, 69, 199, 0.4);
-    border: 0;
-    border-radius: 10px;
-    padding: 0
-}
-
-.card.v-dark .card-header {
-    background-color: #0084ff;
-}
-
-.card .card-header.active {
-    border-radius: 10px 10px 0 0
-}
-
-.card .card-header.active,
-.card .card-header:hover {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
-}
-
-.card.two .card-header.active,
-.card.two .card-header:hover {
-    background-image: linear-gradient( 45deg, rgb(157, 91, 254) 0%, rgb(56, 144, 254) 100%);
-}
-
-.card .card-header.active a,
-.card .card-header:hover a,
-.card-body p,
-.card.v-dark .card-header a {
-    color: #fff
-}
-
-.card .card-header a {
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 600;
-    color: #000;
-    display: block;
-    padding: 20px 30px;
-    position: relative
-}
-
-.card .card-header a:after {
-    content: '\eab2';
-    font-family: 'IcoFont';
-    position: absolute;
-    right: 30px
-}
-
-.card .card-header.active a:after {
-    content: '\eab9';
-    font-family: 'IcoFont'
-}
-
-.card-body {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
-    border-radius: 0 0 10px 10px;
-    padding: 0 30px 10px 30px
-}
-
-.card.two .card-body {
-    background-image: linear-gradient( 45deg, rgb(157, 91, 254) 0%, rgb(56, 144, 254) 100%);
-}
-
-.faq-img {
-    width: 100%;
-}
-
-.faq-img .img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-.faq-img .img-icon {
-    position: absolute;
-    right: 10%;
-    top: 0%;
-    width: 15%;
-    -webkit-animation: upndown 7s linear 0s infinite;
-    animation: upndown 7s linear 0s infinite;
-}
 
 /*-------------------------------------------------------------------------------------
     contact area
@@ -1985,7 +1372,10 @@ p {
 .footer-cont {
     padding: 115px 0 100px
 }
+.footer__contact{
+    color: white;
 
+}
 .footer-widget h3 {
     font-size: 30px;
     color: #fff;
@@ -2769,5 +2159,12 @@ p {
         width: 100%;
         flex: 0 0 25%;
 
+    }
+    .counter__elements{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__container{
+        width: 90%;
     }
 }
