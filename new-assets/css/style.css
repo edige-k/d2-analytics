@@ -496,11 +496,7 @@ p {
     height: 100%;
     overflow: hidden;
 }
-.core-feature-area__carousel__wrapper {
-    display: flex;
-    justify-content: center;
-    transition: transform 0.3s ease-in-out;
-}
+
 .core-feature-area__carousel img {
     width: 100%;
     height: 100%;
@@ -738,7 +734,31 @@ p {
     font-size: 16px;
 }
 
+.swiper {
+    width: 100%;
+    height: 100%;
+}
 
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .title h5 {
     font-weight: 700;
@@ -1622,17 +1642,23 @@ display: flex;
     border-radius: 10px;
 }
 .image-grid__right__content{
-
+    display: flex;
+    flex-direction: column;
     padding: 40px;
     color: white;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 40%;
     transform: translate(-50%, -50%);
     width: 80%;
 }
 .image-grid__right__content h3{
-    font-size: xx-large;
+    font-size: 25px;
+    font-weight: 600;
+}
+.image-grid__right__content h4{
+    font-size: 15px;
+    font-weight: 500;
 }
 .image-grid p{
     color: white;
@@ -2193,9 +2219,6 @@ display: flex;
     .core-feature-area__carousel {
         overflow-x: scroll;
         flex-wrap: nowrap;
-    }
-    .core-feature-area__carousel__wrapper {
-        width: 400%;
     }
     .core-feature-area__carousel__item{
         width: 100%;
